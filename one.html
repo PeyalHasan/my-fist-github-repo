@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="http://127.0.0.1:5500/Image.html/go.png" type="image/x-icon">
+    <title>ON THE GO</title>
+</head>
+<body>
+    <!--This is the Head Section-->
+    <header><h1><p style="background-color: cornflowerblue;text-align: center; color: chartreuse;"><i>My Travel Blog</i></p></h1></header>
+   <h3><p>Welcome to my travel blog! Join me on my adventures around the globe.</p></h3>
+    <!--End head-->
+    <div>
+        <p>Introduction:
+            Welcome to <b>ON THE GO <small>let's Explo®e the Wo®ld</small></b> your passport to a world of captivating journeys and unforgettable experiences. Join us as we traverse the globe, uncovering hidden gems, immersing ourselves in diverse cultures, and sharing the thrill of exploration. Whether you're a seasoned traveler or an armchair adventurer, our travel blog promises to ignite your wanderlust and inspire your next expedition.<br>            
+          <strong>Chapter 1:</strong> Destinations Unveiled
+            Embark on a virtual journey to some of the most enchanting destinations on Earth. From the bustling streets of Tokyo to the serene landscapes of Patagonia, we provide in-depth guides, travel tips, and firsthand accounts to help you navigate and make the most of your adventures. Let the allure of exotic locales awaken the explorer within you.</p>
+    </div>
+    <div>
+        <input type="button" value="Read more">
+    </div><br>
+    <h2><p style="text-align:center;">Sign Up</p></h2><hr>
+    <label for="name">Name:</label>
+    <input type="name" id="name" placeholder="Your Name"><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Your Mail" required=""><br>
+    <label for="password">Pass:</label>
+    <input type="password" name="pass" id="password" placeholder="********"><br>
+    <label for="phone">Phone:</label>
+    <select name="code">
+        <option value="+880">+880</option>
+        <option value="+991">+991</option>
+        <option value="+110">+110</option>
+        <option value="+330">+330</option>
+    </select>
+    <input type="phone" name="phone" id="phone" placeholder="0123456">
+    
+    <br>
+    <br>
+   <b> <span>What I bought</span></b>
+   <div>
+    <ol type="1">
+        <li>Shoes</li>
+        <li>T-Shart</li>
+        <li>Jacket</li>
+        <ul>
+            <li>Denim Jacket</li>
+            <li>Varsity Jacket</li>
+            <li>Leather Jacket</li>
+            <li>Hoddie</li>
+        </ul>
+        <li>Bag</li>
+        <li>Water bottle</li>
+        <li>Headphone</li>
+       </ol>
+   </div>
+   <b><span>My favourite food</span></b>
+   <div>
+    <ul type="">
+        <li>Kacchi</li>
+        <li>Tehari</li>
+        <li>Kabab</li>
+        <li>Drinks</li>
+        <ul>
+            <li>7up</li>
+            <li>Pepsi</li>
+            <li>Coca Cola</li>
+            <li>RC</li>
+            <li>Mojo</li>
+            <li>Sprite</li>
+        </ul>
+        <li>Gilibi</li>
+        <li>Rosh malai</li>
+    </ul>
+   </div>
+   <img src="./ON THE GO_files/images.jpg" alt="Kacchi" height="200px," width="200px"><br><br>
+   <a href="https://youtu.be/dLzMz2Jk_qU?si=grQ2TCscbINDvc7a" target="_blank">YouTube</a><br><br>
+   <p style="text-align: center; color:black;background-color: mediumaquamarine; height: 80px;">Let's Explore the World</p>&gt;
+     <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
